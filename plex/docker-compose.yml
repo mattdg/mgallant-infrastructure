@@ -4,7 +4,7 @@ services:
   plex:
     container_name: plex
     hostname: PlexVids
-    image: plexinc/pms-docker
+    image: plexinc/pms-docker:latest
 
     environment:
       - TZ=America/Toronto

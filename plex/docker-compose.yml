@@ -23,6 +23,6 @@ services:
       - "32414:32414/udp"
 
     volumes:
-      - /mnt/c/Plex/config:/config
-      - /mnt/c/Plex/transcode:/transcode
+      - /mnt/d/Plex/config:/config
+      - /mnt/d/Plex/transcode:/transcode
       - /mnt/x/Vids:/data/Vids

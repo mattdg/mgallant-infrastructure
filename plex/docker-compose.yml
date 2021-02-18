@@ -9,7 +9,7 @@ services:
     environment:
       - TZ=America/Toronto
       - PLEX_CLAIM=claim-39aQ7sHgF7RQndTE4gXs
-      - ADVERTISE_IP=http://192.168.1.22:32400/
+      - ADVERTISE_IP=http://192.168.1.23:32400/
 
     ports:
       - "32400:32400/tcp"
@@ -23,6 +23,6 @@ services:
       - "32414:32414/udp"
 
     volumes:
-      - /mnt/d/Plex/config:/config
-      - /mnt/d/Plex/transcode:/transcode
+      - /mnt/w/Plex/config:/config
+      - /mnt/w/Plex/transcode:/transcode
       - /mnt/x/Vids:/data/Vids
